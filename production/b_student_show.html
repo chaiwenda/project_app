@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- Meta, title, CSS, favicons, etc. -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>教室端首页</title>
+
+<!-- Bootstrap -->
+<link href="../vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Font Awesome -->
+<link href="../vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<!-- NProgress -->
+<link href="../vendors/nprogress/nprogress.css" rel="stylesheet">
+
+<!-- Custom Theme Style -->
+<link href="../build/css/custom.min.css" rel="stylesheet">
+</head>
+
+<body class="nav-md">
+<div>
+    <div class="container body" align="left">
+        <div class="main_container">
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <!-- menu profile quick info -->
+                    <div class="profile clearfix">
+                        <div class="profile_pic">
+                            <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Welcome,</span>
+                            <h2> 学生姓名</h2>
+                        </div>
+                    </div>
+                    <!-- /menu profile quick info -->
+
+                    <br />
+
+                    <!-- 左侧列表 -->
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+                        <div class="menu_section">
+                            <h3>General</h3>
+                            <ul class="nav side-menu">
+                                <li><a href="b_student_show.html"> 首页</a></li>
+                                <li><a href="b_student_totle.html">签到统计</a> </li>
+                                <li><a href="b_student_setting.html">设置</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+            <div class="nav_menu">
+                <nav>
+                    <div class="nav toggle">
+                        <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                    </div>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="">
+                            <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                <img src="images/img.jpg" alt="">John Doe
+                                <span class=" fa fa-angle-down"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-usermenu pull-right">
+                                <li><a href="javascript:;"> Profile</a></li>
+                                <li>
+                                    <a href="javascript:;">
+                                        <span class="badge bg-red pull-right">50%</span>
+                                        <span>Settings</span>
+                                    </a>
+                                </li>
+                                <li><a href="javascript:;">Help</a></li>
+                                <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                            </ul>
+                        </li>
+
+                        <li role="presentation" class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                                <i class="fa fa-envelope-o"></i>
+                                <span class="badge bg-green">6</span>
+                            </a>
+                            <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                                <li>
+                                    <a>
+                                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <div class="text-center">
+                                        <a>
+                                            <strong>See All Alerts</strong>
+                                            <i class="fa fa-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+            <div class="">
+                <div class="page-title">
+                    <div class="title_left">
+                        <h3> Media Gallery <small> gallery design</small> </h3>
+                    </div>
+
+                    <div class="title_right">
+                        <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search for...">
+                                <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Go!</button>
+                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="x_panel">
+                            <div class="x_title">
+                                <h2>Media Gallery <small> gallery design </small></h2>
+                                <ul class="nav navbar-right panel_toolbox">
+                                    <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="#">Settings 1</a>
+                                            </li>
+                                            <li><a href="#">Settings 2</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="close-link"><i class="fa fa-close"></i></a>
+                                    </li>
+                                </ul>
+                                <div class="clearfix"></div>
+                            </div>
+                            <div class="x_content">
+
+                                <div class="row">
+                                    <p>签到</p>
+
+                                    <!--发布签到按钮-->
+                                    <!--<div class="fa-hover col-md-3 col-sm-4 col-xs-12" style="align-self: center;width: 10%;height: 100%;">-->
+                                        <!--<div class="form-group">-->
+                                            <!--<div class="col-md-6 col-md-offset-3">-->
+                                                <!--<button id="send1" type="submit" class="btn btn-success"><h5>发布签到</h5></button>-->
+                                            <!--</div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                    <table>
+                                        <tr>
+                                            <td><button id="send11" type="submit" class="btn btn-success"><h5> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </h5></button></td>
+                                            <td><button id="send12" type="submit" class="btn btn-success"><h5>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </h5></button></td>
+                                            <td><button id="send13" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send14" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send15" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send16" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send17" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send18" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send19" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send110" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><button id="send21" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send22" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send23" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send24" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send25" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;15&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send26" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send27" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;17&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send28" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send29" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send210" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><button id="send31" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send32" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send33" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send34" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send35" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send36" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;26&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send37" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;27&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send38" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;28&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send39" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;29&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send310" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><button id="send41" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;31&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send42" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;32&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send43" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;33&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send44" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;34&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send45" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;35&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send46" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;36&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send47" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;37&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send48" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;38&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send49" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;39&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send410" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;40&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><button id="send51" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;41&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send552" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;42&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send53" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;43&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send54" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;44&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send55" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;45&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send56" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;46&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send57" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;47&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send58" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;48&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send59" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;49&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send510" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                        </tr>
+                                        <tr>
+                                            <td><button id="send61" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;51&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send62" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;52&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send63" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;53&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send64" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;54&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send65" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;55&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send66" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;56&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send67" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;57&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send68" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;58&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send69" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;59&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                            <td><button id="send610" type="submit" class="btn btn-success"><h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h5></button></td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+            <div class="pull-right">
+                Gentelella - Bootstrap Admin Template by <a href="https://colorlib.com">Colorlib</a>
+            </div>
+            <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+    </div>
+</div>
+
+<!-- jQuery -->
+<script src="../vendors/jquery/dist/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<!-- FastClick -->
+<script src="../vendors/fastclick/lib/fastclick.js"></script>
+<!-- NProgress -->
+<script src="../vendors/nprogress/nprogress.js"></script>
+
+<!-- Custom Theme Scripts -->
+<script src="../build/js/custom.min.js"></script>
+</body>
+</html>
